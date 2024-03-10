@@ -40,8 +40,8 @@ const Index = () => {
     <Flex direction="column" align="center" justify="center" minH="100vh" p={4}>
       <Box bgImage="https://images.unsplash.com/photo-1686087350079-9f6ca138583c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx2aXNpb25hcnklMjBpZGVhc3xlbnwwfHx8fDE3MTAwMzg3NzZ8MA&ixlib=rb-4.0.3&q=80&w=1080" bgPos="center" bgSize="cover" w="full" h="100vh" position="relative">
         <VStack spacing={4} position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" color="#0044cc" fontWeight="700" fontSize="18px">
-          <Heading>Share Your Visionary Ideas</Heading>
-          <Text>Collaborate and connect with resources to bring your game-changing ideas to life.</Text>
+          <Heading style={{ textShadow: "0 0 3px #FFFFFF" }}>Share Your Visionary Ideas</Heading>
+          <Text style={{ textShadow: "0 0 3px #FFFFFF" }}>Collaborate and connect with resources to bring your game-changing ideas to life.</Text>
           <FormControl>
             <FormLabel htmlFor="idea-description">Describe your idea</FormLabel>
             <Textarea id="idea-description" placeholder="What's your visionary idea?" />
